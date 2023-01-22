@@ -18,7 +18,7 @@ const Home = () => {
               <Grid container xs={12}>
 
                 <Typography item xs={2}  sx={{ color: 'black', fontWeight:'900', fontSize: '3rem' }}> John</Typography>
-                <Typography item xs={2} sx={{ color: 'black', fontWeight:'500', fontSize: '3rem', marginLeft: '0.5%' }}> Soft </Typography>
+                <Typography item xs={2} sx={{ color: 'black', fontWeight:'500', fontSize: '3rem', marginLeft: '0.5%' }}> Softer </Typography>
 
               </Grid>
             </Grid>

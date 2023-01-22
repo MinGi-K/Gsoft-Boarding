@@ -26,18 +26,18 @@ export default function Header() {
   return (
     <React.Fragment>
       <Box sx={{ paddingTop: '1%', display: 'grid', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(10, 1fr)',
-       backgroundColor: 'white', height: '10vh', paddingLeft: '8%', paddingRight: '8%'}}>
+       backgroundColor: 'white', height: '10vh', paddingLeft: '8%', paddingRight: '8%', borderBottom: 2, borderColor: 'black'}}>
         <div>
           <img src={Logo} alt="GSB Logo" width={100} />
         </div>
-        <IconButton></IconButton>
+        
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Mainpage</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Tutorial</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Resource</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Community</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Status</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Feedback</IconButton>
-        <IconButton></IconButton>
+        
 
 
         <Tooltip title="Account settings">
