@@ -1,6 +1,6 @@
 import Header from "./components/Header";
 import Home from "./Home/Home";
-import Tut from '../../images/Tut.png'
+import Tut from '../../src/images/Tut.png'
 
 const Tutorial = () => {
     return (
@@ -12,7 +12,7 @@ const Tutorial = () => {
         
 
         <div>
-          <img src={Tut} alt="Tut" width={390} />
+          <img src={Tut} alt="Tut" width={390}/>
         </div>
 
 
