@@ -76,7 +76,7 @@ export default function HomeHeader() {
   return (
     <React.Fragment>
       <Box sx={{ display: 'grid', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(10, 1fr)',
-    paddingTop: 3, paddingLeft: 15, paddingRight: 15, backgroundColor: 'white',
+    paddingTop: 3, paddingLeft: 15, paddingRight: 15, backgroundColor: 'white', height: '10%',
     borderColor: 'black' }}>
         <div>
           <img src={Logo} alt="GSB Logo" width={100} />
@@ -106,7 +106,7 @@ export default function HomeHeader() {
         </Tooltip>
       </Box>
       <Box sx={{ paddingLeft: 15, paddingRight: 15, backgroundColor: 'white', display: 'flex', justifyContent: 'flex-end' }}>
-        <Box sx={{width: 400}}>
+        <Box sx={{width: 400, height: '20%'}}>
             <Typography sx = {{color: 'black'}} gutterBottom>Feeling</Typography>
                 
                 <PrettoSlider
