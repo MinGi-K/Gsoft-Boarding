@@ -40,7 +40,7 @@ const Tutorial = () => {
             </Box>
 
             <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'left', paddingTop: 7, paddingBottom: 7,
-            marginLeft: 15, marginRight: 15, height: '100%', borderBottom: 2, color: 'black', justifyContent: 'space-between'}}>
+            marginLeft: 15, marginRight: 15, height: '100%', color: 'black', justifyContent: 'space-between'}}>
                 <Box sx={{width: 600, marginLeft: 3}}>
                     <Typography sx={{color: 'black', fontSize: 'xx-large', paddingBottom: 2, fontWeight: 'bold'}}>Tutorial for Softers</Typography>
                     <Typography sx={{display: 'flex'}}>GSoft kindly prepared everything you need to be our Softer members.  Following the categories, you might start exploring yourself, and also you can be one of the gentle providers to help your members as they do. 
@@ -69,12 +69,6 @@ const Tutorial = () => {
 
                 </Box>
 
-            </Box>
-
-
-            <Box sx={{ display: 'grid', alignItems: 'center', textAlign: 'left', paddingTop: 3,
-            paddingLeft: 15, paddingRight: 15 }}>
-                <Typography sx={{color: 'black', fontSize: 'xxx-large'}}>Find Your Softmates</Typography>
             </Box>
 
             <Box sx={{display: 'flex', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(2, 1fr)',
