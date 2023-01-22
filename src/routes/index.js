@@ -1,6 +1,6 @@
-import Home from "../components/Home";
-import Product from "../components/Product";
-import Products from "../components/Products";
+import Home from "../pages/Home/Home";
+import Product from "../pages/Product";
+import Products from "../pages/Products";
 
 const mainRoutes = [
   {
