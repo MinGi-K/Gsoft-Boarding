@@ -60,7 +60,7 @@ const Status = () => {
             <Box sx={{ display: 'grid', alignItems: 'center', textAlign: 'left', paddingTop: 3, paddingBottom: 3,
             marginLeft: 15, marginRight: 15, backgroundColor: '#E49E7A', borderBottom: 2, color: 'black'}}>
                 <MenuItem sx={{justifyContent: 'space-between'}}>
-                    <Typography sx={{color: 'black', fontSize: 'xxx-large', fontWeight: 'bold'}}>04. Your Status</Typography> 
+                    <Typography sx={{color: 'black', fontSize: 'xxx-large', fontWeight: 'bold'}}>04. YOUR STATUS</Typography> 
                     <ListItemIcon>
                         <FavoriteBorderOutlinedIcon sx = {{color: 'black', fontSize: 'xxx-large', fontWeight: 'bold'}} />
                     </ListItemIcon>

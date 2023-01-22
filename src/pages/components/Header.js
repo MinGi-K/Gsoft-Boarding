@@ -1,5 +1,6 @@
 import * as React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Box from '@mui/material/Box';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -30,7 +31,7 @@ export default function Header({ props }) {
   };
   return (
     <React.Fragment>
-      <Box sx={{backgroundColor:headerColor}}>
+      <Box sx={{ backgroundColor: headerColor }}>
         <Box sx={{
           display: 'grid', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(10, 1fr)',
           paddingTop: 3, borderBottom: 2, paddingBottom: 3, marginLeft: 15, marginRight: 15,
@@ -45,7 +46,12 @@ export default function Header({ props }) {
           <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Resource</IconButton>
           <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Community</IconButton>
           <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Status</IconButton>
-          <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Feedback</IconButton>
+          <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>
+            <Link to="/Feedback">
+              Feedback
+            </Link>
+
+          </IconButton>
           <Typography></Typography>
 
 

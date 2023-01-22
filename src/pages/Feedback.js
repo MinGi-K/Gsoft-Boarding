@@ -19,7 +19,7 @@ const Feedback = () => {
             <Box sx={{ display: 'grid', alignItems: 'center', textAlign: 'left', paddingTop: 3, paddingBottom: 3,
             marginLeft: 15, marginRight: 15, backgroundColor: '#E39183', height: '100%', borderBottom: 2, color: 'black'}}>
                 <MenuItem sx={{justifyContent: 'space-between'}}>
-                    <Typography sx={{color: 'black', fontSize: 'xxx-large', fontWeight: 'bold'}}>05. Feedback</Typography> 
+                    <Typography sx={{color: 'black', fontSize: 'xxx-large', fontWeight: 'bold'}}>05. FEEDBACK</Typography> 
                     <ListItemIcon>
                         <MarkChatReadOutlinedIcon sx = {{color: 'black', fontSize: 'xxx-large', fontWeight: 'bold'}} />
                     </ListItemIcon>
