@@ -5,10 +5,11 @@ const Tutorial = () => {
     return (
         <>
 
-        <Header>{{backgroundColor: '#AFCBF3'}}</Header>
+        <Header props={{color: '#AFCBF3'}}>{{backgroundColor: '#AFCBF3'}}</Header>
 
-        <div style={{backgroundColor:'#AFCBF3'}}>01. TUTORIAL</div>
+        <div style={{backgroundColor:'#AFCBF3', height:'100vh', color: 'black'}}>01. TUTORIAL</div>
         
+
 
 
 

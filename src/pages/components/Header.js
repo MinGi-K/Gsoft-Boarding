@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useState } from 'react';
 import Box from '@mui/material/Box';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
@@ -14,9 +15,13 @@ import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import Logo from '../../images/gsbLogo.png'
 
 
-export default function Header() {
+export default function Header({props}) {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
+  const [headerColor, setHeaderColor] = useState(props.color);
+  if (!headerColor){
+    setHeaderColor('white')
+  }
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
   };
@@ -26,8 +31,8 @@ export default function Header() {
   return (
     <React.Fragment>
       <Box sx={{ display: 'grid', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(10, 1fr)',
-    paddingTop: 3, borderBottom: 2, paddingBottom: 3, paddingLeft: 15, paddingRight: 15, backgroundColor: 'white',
-    borderColor: 'black', height: '10%' }}>
+    paddingTop: 3, borderBottom: 2, paddingBottom: 3, paddingLeft: 15, paddingRight: 15,
+    borderColor: 'black', height: '10%', backgroundColor: headerColor }}>
         <IconButton>
           <img src={Logo} alt="GSB Logo" width={100} />
         </IconButton>
