@@ -11,7 +11,7 @@ import Logout from '@mui/icons-material/Logout';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import PersonAddOutlinedIcon from '@mui/icons-material/PersonAddOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import Logo from '/Users/ashley.oh/Desktop/ConUHacks/Gsoft-Boarding/src/images/gsbLogo.png'
+import Logo from '../../images/gsbLogo.png'
 import { Slider } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
