@@ -1,6 +1,7 @@
 import Home from "../pages/Home/Home";
-import Product from "../pages/Product";
-import Products from "../pages/Products";
+import Community from "../pages/Community";
+import Status from "../pages/Status";
+import Feedback from "../pages/Feedback";
 
 const mainRoutes = [
   {
@@ -8,17 +9,16 @@ const mainRoutes = [
     element: <Home />,
   },
   {
-    path: "products",
-    children: [
-      {
-        index: true,
-        element: <Products />,
-      },
-      {
-        path: ":productId",
-        element: <Product />,
-      },
-    ],
+    path: "/Community",
+    element: <Community />,
+  },
+  {
+    path: "/Status",
+    element: <Status />,
+  },
+  {
+    path: "/Feedback",
+    element: <Feedback />,
   },
 ];
 
