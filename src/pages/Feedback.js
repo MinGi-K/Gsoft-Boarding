@@ -32,7 +32,7 @@ const Feedback = () => {
 
             <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'left', paddingTop: 3, paddingBottom: 3,
             marginLeft: 15, marginRight: 15, backgroundColor: '#E39183', height: '100%', borderBottom: 2, color: 'black', justifyContent: 'space-between'}}>
-                <Box sx={{width: 600}}>
+                <Box sx={{width: 600, marginLeft: 3}}>
                     <Typography sx={{color: 'black', fontSize: 'xx-large', paddingBottom: 2, fontWeight: 'bold'}}>Feedback for Softers</Typography>
                     <Typography sx={{display: 'flex'}}>Send in a form where you could include both text and picture to reflect on the work environment. This helps us improve and create a positive community in the future.</Typography>
                 </Box>

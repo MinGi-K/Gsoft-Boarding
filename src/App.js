@@ -10,7 +10,7 @@ import Status from "./pages/Status";
 function App() {
   return (
     <>
-      <Feedback/>
+      <Status/>
     </>
   );
 }

@@ -4,6 +4,7 @@ import Box from '@mui/material/Box';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import MenuItem from '@mui/material/MenuItem';
 import status from '../../src/images/Status.png'
+import status2 from '../../src/images/status2.png'
 import IconButton from '@mui/material/IconButton';
 import { Form } from "react-router-dom";
 import { Label } from "@mui/icons-material";
@@ -69,6 +70,23 @@ const Status = () => {
                     Get to know and inform your community how happy you are working with other softers.
                 </Typography>
             </Box>
+
+
+            <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'left', paddingTop: 3, paddingBottom: 3,
+            marginLeft: 15, marginRight: 15, height: '100%', borderBottom: 2, color: 'black', justifyContent: 'space-between'}}>
+                <Box sx={{width: 400, marginLeft: 3}}>
+                    <Typography sx={{color: 'black', fontSize: 'xx-large', paddingBottom: 2, fontWeight: 'bold'}}>Share Your Status</Typography>
+                    <Typography sx={{display: 'flex'}}>One of the reasons why onboarding fails is because of one’s loss of goal. 
+                    We encourage softers to set their daily goal status which makes one feel more motivated and if their goal or happiness seem to be low, 
+                    others can recognize to support them.</Typography>
+                </Box>
+                <Box sx={{width: 300, alignItems: 'right'}}>
+                    {/* insert image here */}
+                    <img src={status2} alt="status2" height={200} alignItems='right' />
+                </Box>
+            </Box>
+
+
             <Box sx={{ display: 'grid', alignItems: 'center', textAlign: 'left', paddingTop: 3,
             paddingLeft: 15, paddingRight: 15, backgroundColor: '#E49E7A', }}>
                 <Typography sx={{color: 'black', fontSize: 'xxx-large'}}>Thank you for sharing your status today !</Typography>
