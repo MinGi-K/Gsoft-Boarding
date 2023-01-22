@@ -8,6 +8,7 @@ import feedback from '../../src/images/feedback.png'
 import IconButton from '@mui/material/IconButton';
 import { Form } from "react-router-dom";
 import { Label } from "@mui/icons-material";
+import CallMadeIcon from '@mui/icons-material/CallMade';
 
 
 const Feedback = () => {
@@ -28,11 +29,43 @@ const Feedback = () => {
                     Anonymous Feedback evaluates the work environment, which makes it easier for the employers to reflect on their onboarding service they are providing.
                 </Typography>
             </Box>
-            <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'center', paddingTop: 3, paddingBottom: 3,
-            paddingLeft: 15, paddingRight: 15, backgroundColor: '#E39183', height: '100%', borderBottom: 2, color: 'black'}}>
+
+            <Box sx={{ display: 'flex', alignItems: 'center', textAlign: 'left', paddingTop: 3, paddingBottom: 3,
+            marginLeft: 15, marginRight: 15, backgroundColor: '#E39183', height: '100%', borderBottom: 2, color: 'black', justifyContent: 'space-between'}}>
+                <Box sx={{width: 600}}>
+                    <Typography sx={{color: 'black', fontSize: 'xx-large', paddingBottom: 2, fontWeight: 'bold'}}>Feedback for Softers</Typography>
+                    <Typography sx={{display: 'flex'}}>Send in a form where you could include both text and picture to reflect on the work environment. This helps us improve and create a positive community in the future.</Typography>
+                </Box>
+                <Box sx={{width: 500, color: 'black'}}>
+                    <MenuItem sx={{justifyContent: 'space-between', borderBottom: 2}}>
+                        <Typography sx={{color: 'black', fontSize: 'large'}}>Category A</Typography> 
+                        <ListItemIcon>
+                            <CallMadeIcon sx = {{color: 'black', fontSize: 'large'}} />
+                        </ListItemIcon>
+                    </MenuItem>
+                    <MenuItem sx={{justifyContent: 'space-between', borderBottom: 2}}>
+                        <Typography sx={{color: 'black', fontSize: 'large'}}>Category B</Typography> 
+                        <ListItemIcon>
+                            <CallMadeIcon sx = {{color: 'black', fontSize: 'large'}} />
+                        </ListItemIcon>
+                    </MenuItem>
+                    <MenuItem sx={{justifyContent: 'space-between', borderBottom: 2}}>
+                        <Typography sx={{color: 'black', fontSize: 'large'}}>Category C</Typography> 
+                        <ListItemIcon>
+                            <CallMadeIcon sx = {{color: 'black', fontSize: 'large'}} />
+                        </ListItemIcon>
+                    </MenuItem>
+
+                </Box>
+
+            </Box>
+
+
+            <Box sx={{ alignItems: 'center', textAlign: 'center', paddingTop: 3, paddingBottom: 20,
+            paddingLeft: 15, paddingRight: 15, backgroundColor: '#E39183', height: '100%', color: 'black', display: 'grid',justifyContent: 'center'}}>
                 <Typography sx={{color: 'black', fontSize: 'xxx-large', paddingBottom: 2}}>Feel free to drop us your feedback.</Typography>
-                <Box sx={{borderRadius: 5, backgroundColor: 'white', textAlign: 'left', alignItems: 'center', width: '80%', 
-                paddingBottom: 3, paddingLeft: 10, paddingRight: 10}}>
+                <Box sx={{borderRadius: 5, backgroundColor: 'white', textAlign: 'left', alignItems: 'center', width: '80%', justifyContent: 'center',
+                paddingBottom: 3, paddingLeft: 10, paddingRight: 10, marginLeft: '10%'}}>
                     <Typography sx={{paddingTop: 5, paddingBottom: 1, fontSize: 'large', fontWeight: 200}}>Email</Typography>
                     <form>
                         <input type="text" name="Email Address" placeholder="Your Email Address" style={{width: '100%', 
