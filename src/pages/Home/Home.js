@@ -33,7 +33,8 @@ const Home = () => {
                 header: 'Tutorial',
                 color: '#AFCBF3',
                 logo: 0,
-                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something."
+                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something.",
+                link: "/Tutorial"
               }}></HomeCard>
             </Grid>
             <Grid item xs={12 / 5}>
@@ -41,28 +42,32 @@ const Home = () => {
                 header: 'Resource',
                 color: '#6195C5',
                 logo: 1,
-                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something."
+                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something.",
+                link: "/Resource"
               }}></HomeCard>
             </Grid><Grid item xs={12 / 5}>
               <HomeCard props={{
                 header: 'Community',
                 color: '#EECD86',
                 logo: 2,
-                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something."
+                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something.",
+                link: "/Community"
               }}></HomeCard>
             </Grid><Grid item xs={12 / 5}>
               <HomeCard props={{
                 header: 'Status',
                 color: '#E49E7A',
                 logo: 3,
-                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something."
+                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something.",
+                link: "/Status"
               }}></HomeCard>
             </Grid><Grid item xs={12 / 5}>
               <HomeCard props={{
                 header: 'Feedback',
                 color: '#AFCBF3',
                 logo: 4,
-                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something."
+                description: "Tutorials help our softers to learn basic tools to adjust on our GSoft culture and work something.",
+                link: "/Feedback"
               }}></HomeCard>
             </Grid>
           </Grid>

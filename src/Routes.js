@@ -1,16 +1,20 @@
 import { Route, Routes as BaseRoutes } from "react-router-dom";
 import Home from "./pages/Home/Home";
-import Products from "./pages/Products";
-import Product from "./pages/Product";
+import Feedback from "./pages/Feedback";
+import Resource from "./pages/Resource";
+import Status from "./pages/Status";
+import Tutorial from "./pages/Tutorial";
+import Community from "./pages/Community";
 
 export default function Routes() {
   return (
     <BaseRoutes>
       <Route path="/" element={<Home />} />
-      <Route path="pro  ucts">
-        <Route index element={<Products />} />
-        <Route path=":productId" element={<Product />} />
-      </Route>
+      <Route path="/Community" element={<Community/>}/>
+      <Route path="/Feedback" element={<Feedback/>}/>
+      <Route path="/Resource" element={<Resource/>}/>
+      <Route path="/Status" element={<Status/>}/>
+      <Route path="/Tutorial" element={<Tutorial/>}/>
     </BaseRoutes>
   );
 }

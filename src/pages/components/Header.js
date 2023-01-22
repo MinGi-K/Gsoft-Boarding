@@ -41,17 +41,36 @@ export default function Header({ props }) {
             <img src={Logo} alt="GSB Logo" width={100} />
           </IconButton>
           <Typography></Typography>
-          <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Mainpage</IconButton>
-          <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Tutorial</IconButton>
-          <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Resource</IconButton>
-          <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Community</IconButton>
-          <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Status</IconButton>
-          <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>
-            <Link to="/Feedback">
+          <Link to="/" style={{textDecoration: 'none'}}>
+            <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>
+              Mainpage
+            </IconButton>
+          </Link>
+          <Link to="/Tutorial" style={{textDecoration: 'none'}}>
+            <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>
+              Tutorial
+            </IconButton>
+          </Link>
+          <Link to="/Resource" style={{textDecoration: 'none'}}>
+            <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>
+              Resource
+            </IconButton>
+          </Link>
+          <Link to="/Community" style={{textDecoration: 'none'}}>
+            <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>
+              Community
+            </IconButton>
+          </Link>
+          <Link to="/Status" style={{textDecoration: 'none'}}>
+            <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>
+              Status
+            </IconButton>
+          </Link>
+          <Link to="/Feedback" style={{textDecoration: 'none'}}>
+            <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>
               Feedback
-            </Link>
-
-          </IconButton>
+            </IconButton>
+          </Link>
           <Typography></Typography>
 
 

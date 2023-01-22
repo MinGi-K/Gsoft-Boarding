@@ -17,7 +17,7 @@ const mainRoutes = [
     element: <Status />,
   },
   {
-    path: "Feedback",
+    path: "/Feedback",
     element: <Feedback />,
   },
 ];

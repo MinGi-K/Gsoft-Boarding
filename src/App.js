@@ -7,11 +7,16 @@ import Feedback from "./pages/Feedback";
 import Status from "./pages/Status";
 import Community from "./pages/Community";
 import Resource from "./pages/Resource";
+import mainRoutes from "./routes/index";
+import Routes from "./Routes";
 
 function App() {
+  const routeResults = useRoutes(mainRoutes)
   return (
     <>
-      <Community/>
+      <Routes>
+        <Home />
+      </Routes>
     </>
   );
 }

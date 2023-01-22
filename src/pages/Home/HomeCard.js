@@ -13,7 +13,7 @@ const HomeCard = ({ props }) => {
     console.log("work");
     return (
         <>
-            <Link to="/Feedback"> 
+            <Link to={props.link}> 
                 <Box sx={{ borderRadius: 3, backgroundColor: color, height: '50vh', padding: '5%' }}>
                     <Box sx={{ height: '60%', paddingTop: '20%', paddingLeft: '5%' }}>
                         <img src={logos[props.logo]}></img>
