@@ -2,12 +2,14 @@ import "./Home.css"
 import { Box, Typography, Grid } from "@mui/material";
 import { flexbox } from "@mui/system";
 import HomeCard from "./HomeCard";
+import Header from "../components/Header"
 
 const Home = () => {
   return (
     <>
+      <Header/>
       <Grid container sx={{ paddingLeft: '7vw', paddingRight: '7vw', backgroundColor: 'white' }}>
-        <Grid xs={12} sx={{ height: '40vh' }}>
+        <Grid xs={12} sx={{ height: '35vh' }}>
           <Box sx={{ alignContent: 'center', alignItems: 'center', height: '100%', display: 'flex' }}>
             <Grid container>
               <Grid item xs={12}>
@@ -23,7 +25,7 @@ const Home = () => {
           </Box>
 
         </Grid>
-        <Grid xs={12} sx={{ height: '60vh' }}>
+        <Grid xs={12} sx={{ height: '55vh' }}>
           <Grid container spacing={2}>
             <Grid item xs={12 / 5}>
               <HomeCard props={{

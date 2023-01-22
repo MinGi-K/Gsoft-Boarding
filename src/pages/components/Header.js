@@ -11,7 +11,7 @@ import Logout from '@mui/icons-material/Logout';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import PersonAddOutlinedIcon from '@mui/icons-material/PersonAddOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
-import Logo from '/Users/ashley.oh/Desktop/ConUHacks/Gsoft-Boarding/src/images/gsbLogo.png'
+import Logo from '../../images/gsbLogo.png'
 
 
 export default function Header() {
@@ -25,9 +25,8 @@ export default function Header() {
   };
   return (
     <React.Fragment>
-      <Box sx={{ display: 'grid', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(10, 1fr)',
-    paddingTop: 3, borderBottom: 2, paddingBottom: 3, marginLeft: 15, marginRight: 15, backgroundColor: 'white',
-    borderColor: 'black' }}>
+      <Box sx={{ paddingTop: '1%', display: 'grid', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(10, 1fr)',
+       backgroundColor: 'white', height: '10vh', paddingLeft: '8%', paddingRight: '8%'}}>
         <div>
           <img src={Logo} alt="GSB Logo" width={100} />
         </div>
