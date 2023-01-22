@@ -1,13 +1,14 @@
 import "./Home.css"
 import { Box, Typography, Grid } from "@mui/material";
-import { flexbox } from "@mui/system";
+// import { flexbox } from "@mui/system";
 import HomeCard from "./HomeCard";
-import Header from "../components/Header"
+// import Header from "../components/Header"
+import HomeHeader from "../components/HomeHeader";
 
 const Home = () => {
   return (
     <>
-      <Header/>
+      <HomeHeader/>
       <Grid container sx={{ paddingLeft: '7vw', paddingRight: '7vw', backgroundColor: 'white' }}>
         <Grid xs={12} sx={{ height: '35vh' }}>
           <Box sx={{ alignContent: 'center', alignItems: 'center', height: '100%', display: 'flex' }}>
