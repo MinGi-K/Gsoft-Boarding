@@ -3,18 +3,20 @@ import Home from "./Home/Home";
 
 const Tutorial = () => {
     return (
-
         <>
-        
-        <Header/>
 
-        <style><h1>01. TUTORIAL</h1></style>
+        <Header>{{backgroundColor: '#AFCBF3'}}</Header>
 
+        <div style={{backgroundColor:'#AFCBF3'}}>01. TUTORIAL</div>
         
+
+
 
         </>
-
+        
+    
     )
+    
 }
 
 export default Tutorial;

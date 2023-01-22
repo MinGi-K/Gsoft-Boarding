@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <HomeHeader/>
-      <Grid container sx={{ paddingLeft: '7vw', paddingRight: '7vw', backgroundColor: 'white' }}>
+      <Grid container sx={{ paddingLeft: '7vw', paddingRight: '7vw'}}>
         <Grid xs={12} sx={{ height: '35vh' }}>
           <Box sx={{ alignContent: 'center', alignItems: 'center', height: '100%', display: 'flex' }}>
             <Grid container>
