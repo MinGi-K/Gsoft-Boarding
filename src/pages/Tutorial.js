@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Home from "./Home/Home";
+import Tut from '../../images/Tut.png'
 
 const Tutorial = () => {
     return (
@@ -10,7 +11,9 @@ const Tutorial = () => {
         <div style={{backgroundColor:'#AFCBF3', height:'100vh', color: 'black'}}>01. TUTORIAL</div>
         
 
-
+        <div>
+          <img src={Tut} alt="Tut" width={390} />
+        </div>
 
 
         </>
