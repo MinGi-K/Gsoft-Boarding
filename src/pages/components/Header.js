@@ -26,7 +26,8 @@ export default function Header() {
   return (
     <React.Fragment>
       <Box sx={{ display: 'grid', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(10, 1fr)',
-    paddingTop: 3, borderBottom: 2, paddingBottom: 3, marginLeft: 15, marginRight: 15 }}>
+    paddingTop: 3, borderBottom: 2, paddingBottom: 3, marginLeft: 15, marginRight: 15, backgroundColor: 'white',
+    borderColor: 'black' }}>
         <div>
           <img src={Logo} alt="GSB Logo" width={100} />
         </div>
