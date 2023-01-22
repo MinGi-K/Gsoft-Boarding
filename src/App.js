@@ -11,7 +11,7 @@ import Resource from "./pages/Resource";
 function App() {
   return (
     <>
-      <Resource/>
+      <Community/>
     </>
   );
 }

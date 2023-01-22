@@ -6,6 +6,7 @@ import ListItemIcon from '@mui/material/ListItemIcon';
 import MenuItem from '@mui/material/MenuItem';
 import community from '../../src/images/community.png'
 import GroupSport from '../../src/images/GroupSport.png'
+import combutton from '../../src/images/combutton.png'
 import GroupJam from '../../src/images/GroupJam.png'
 import GroupArt from '../../src/images/GroupArt.png'
 import IconButton from '@mui/material/IconButton';
@@ -72,7 +73,7 @@ const Community = () => {
                 <Typography sx={{color: 'black', fontSize: 'xxx-large'}}>Find Your Softmates</Typography>
             </Box>
             <Box sx={{display: 'flex', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(3, 1fr)',
-                    paddingTop: 3,  paddingBottom: 20, paddingLeft: 15, paddingRight: 15, borderColor: 'black', justifyContent: 'space-between'}}>
+                    paddingTop: 3,  paddingLeft: 15, paddingRight: 15, borderColor: 'black', justifyContent: 'space-between'}}>
                     <MenuItem sx={{width: 350, textAlign: 'left'}}>
                         <img src={GroupSport} alt="GroupSport" width={"100%"} alignItems='center' />
                     </MenuItem>
@@ -84,6 +85,13 @@ const Community = () => {
                     <MenuItem sx={{width: 350, textAlign: 'center'}}>
                         <img src={GroupArt} alt="GroupArt" width={"100%"} alignItems='center' />
                     </MenuItem>
+            </Box>
+            <Box sx={{display: 'flex', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(3, 1fr)',
+                    paddingTop: 3,  paddingLeft: 15, paddingBottom: 20, paddingRight: 15, borderColor: 'black', justifyContent: 'right'}}>
+                <MenuItem sx={{width: 200, textAlign: 'left'}}>
+                    <img src={combutton} alt="combutton" width={"100%"} alignItems='center' />
+                 </MenuItem>
+
             </Box>
             
         </Box>
