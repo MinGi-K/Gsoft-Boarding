@@ -25,11 +25,13 @@ export default function Header() {
   };
   return (
     <React.Fragment>
-      <Box sx={{ paddingTop: '1%', display: 'grid', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(10, 1fr)',
-       backgroundColor: 'white', height: '10vh', paddingLeft: '8%', paddingRight: '8%'}}>
-        <div>
+      <Box sx={{ display: 'grid', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(10, 1fr)',
+    paddingTop: 3, borderBottom: 2, paddingBottom: 3, paddingLeft: 15, paddingRight: 15, backgroundColor: 'white',
+    borderColor: 'black', height: '10%' }}>
+        <IconButton>
+
           <img src={Logo} alt="GSB Logo" width={100} />
-        </div>
+        </IconButton>
         <IconButton></IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Mainpage</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Tutorial</IconButton>
@@ -123,9 +125,3 @@ export default function Header() {
     </React.Fragment>
   );
 }
-
-
-// const itemData = [
-//   {
-//   }
-// ]
