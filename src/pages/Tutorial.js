@@ -1,23 +1,20 @@
-import HomeHeader from "./components/HomeHeader";
-import Home from "/Users/naraelee/Desktop/con/Gsoft-Boarding/src/pages/Home/Home.js";
+import Header from "./components/Header";
+import Home from "./Home/Home";
 
-const Home = () => {
+const Tutorial = () => {
     return (
 
         <>
         
-        <HomeHeader/>
+        <Header/>
+
+        <style><h1>01. TUTORIAL</h1></style>
 
         
 
-
-
-
-
-
-        
-        
         </>
 
     )
 }
+
+export default Tutorial;
