@@ -1,31 +1,14 @@
-import { Link, useRoutes } from "react-router-dom";
-
-import routes from "./routes/index";
-import Routes from "./Routes";
-
+import React from "react";
+import Header from "./pages/components/Header";
+import HomeHeader from "./pages/components/HomeHeader";
+  
 function App() {
-  const routeResult = useRoutes(routes);
   return (
-    <>
-      <header>
-        <strong>React Router v6</strong>
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/products">Produtos</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
-      <main>
-        <Routes />
-      </main>
-    </>
+  
+   // Using the newly created Header 
+   // component in this main component
+  //  <Header/>
+  <HomeHeader/>
   );
 }
-
 export default App;
