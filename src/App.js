@@ -6,11 +6,12 @@ import Tutorial from "./pages/Tutorial";
 import Feedback from "./pages/Feedback";
 import Status from "./pages/Status";
 import Community from "./pages/Community";
+import Resource from "./pages/Resource";
 
 function App() {
   return (
     <>
-      <Home/>
+      <Tutorial/>
     </>
   );
 }

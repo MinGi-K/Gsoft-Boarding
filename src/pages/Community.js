@@ -5,9 +5,9 @@ import MarkChatReadOutlinedIcon from '@mui/icons-material/MarkChatReadOutlined';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import MenuItem from '@mui/material/MenuItem';
 import community from '../../src/images/community.png'
-import sport from '../../src/images/sport.png'
-import jam from '../../src/images/jam.png'
-import art from '../../src/images/art.png'
+import GroupSport from '../../src/images/GroupSport.png'
+import GroupJam from '../../src/images/GroupJam.png'
+import GroupArt from '../../src/images/GroupArt.png'
 import IconButton from '@mui/material/IconButton';
 import { Form } from "react-router-dom";
 import { Label } from "@mui/icons-material";
@@ -74,15 +74,15 @@ const Community = () => {
             <Box sx={{display: 'flex', alignItems: 'center', textAlign: 'center', gridTemplateColumns: 'repeat(3, 1fr)',
                     paddingTop: 3,  paddingBottom: 20, paddingLeft: 15, paddingRight: 15, borderColor: 'black', justifyContent: 'space-between'}}>
                     <MenuItem sx={{width: 350, textAlign: 'left'}}>
-                        <img src={sport} alt="sport" width={"100%"} alignItems='center' />
+                        <img src={GroupSport} alt="GroupSport" width={"100%"} alignItems='center' />
                     </MenuItem>
                     
                     <MenuItem sx={{width: 350, textAlign: 'center'}}>
-                        <img src={jam} alt="jam" width={"100%"} alignItems='center' />
+                        <img src={GroupJam} alt="GroupJam" width={"100%"} alignItems='center' />
                     </MenuItem>
 
                     <MenuItem sx={{width: 350, textAlign: 'center'}}>
-                        <img src={art} alt="art" width={"100%"} alignItems='center' />
+                        <img src={GroupArt} alt="GroupArt" width={"100%"} alignItems='center' />
                     </MenuItem>
             </Box>
             
