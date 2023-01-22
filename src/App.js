@@ -1,14 +1,14 @@
-import React from "react";
-import Header from "./pages/components/Header";
-import HomeHeader from "./pages/components/HomeHeader";
-  
+import { Link, useRoutes } from "react-router-dom";
+
+import routes from "./routes/index";
+import Routes from "./Routes";
+import Home from "./pages/Home/Home";
+
 function App() {
   return (
-  
-   // Using the newly created Header 
-   // component in this main component
-  //  <Header/>
-  <HomeHeader/>
+    <>
+      <Home></Home>
+    </>
   );
 }
 export default App;
