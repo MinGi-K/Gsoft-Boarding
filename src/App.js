@@ -5,12 +5,10 @@ import Routes from "./Routes";
 import Home from "./pages/Home/Home";
 
 function App() {
-  const routeResult = useRoutes(routes);
   return (
     <>
       <Home></Home>
     </>
   );
 }
-
 export default App;

@@ -5,8 +5,8 @@ import MenuItem from '@mui/material/MenuItem';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import Divider from '@mui/material/Divider';
 import IconButton from '@mui/material/IconButton';
-// import Typography from '@mui/material/Typography';
 import Tooltip from '@mui/material/Tooltip';
+import Typography from '@mui/material/Typography';
 import Logout from '@mui/icons-material/Logout';
 import AccountCircleOutlinedIcon from '@mui/icons-material/AccountCircleOutlined';
 import PersonAddOutlinedIcon from '@mui/icons-material/PersonAddOutlined';
@@ -29,17 +29,16 @@ export default function Header() {
     paddingTop: 3, borderBottom: 2, paddingBottom: 3, paddingLeft: 15, paddingRight: 15, backgroundColor: 'white',
     borderColor: 'black', height: '10%' }}>
         <IconButton>
-
           <img src={Logo} alt="GSB Logo" width={100} />
         </IconButton>
-        <IconButton></IconButton>
+        <Typography></Typography>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Mainpage</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Tutorial</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Resource</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Community</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Status</IconButton>
         <IconButton sx={{ minWidth: 100, fontSize: 'large', color: 'black' }}>Feedback</IconButton>
-        <IconButton></IconButton>
+        <Typography></Typography>
 
 
         <Tooltip title="Account settings">
